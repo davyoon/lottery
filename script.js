@@ -10,7 +10,7 @@ function getMNum(){
 	}
 	megaball = Math.floor(Math.random() * 15) + 1;
 	winningNums = winningNums.join('-');
-	$('.mWinningNum').append(winningNums)
+	$('.mWinningNum').append(mWinningNums)
 	$('.megaball').append(megaball)
 
 }
@@ -28,7 +28,7 @@ function getPNum(){
 	}
 	megaball = Math.floor(Math.random() * 26) + 1;
 	winningNums = winningNums.join('-');
-	$('.pWinningNum').append(winningNums)
+	$('.pWinningNum').append(pWinningNums)
 	$('.powerball').append(powerball)
 
 }
