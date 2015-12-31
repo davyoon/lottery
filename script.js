@@ -26,7 +26,7 @@ function getPNum(){
 			winningNums.push(random)
 		}
 	}
-	megaball = Math.floor(Math.random() * 26) + 1;
+	powerball = Math.floor(Math.random() * 26) + 1;
 	winningNums = winningNums.join('-');
 	$('.pWinningNum').append(pWinningNums)
 	$('.powerball').append(powerball)
